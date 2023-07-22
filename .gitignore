@@ -4,3 +4,5 @@ out
 build
 dist
 project.private.config.json
+.swc
+tailwind.config.js
