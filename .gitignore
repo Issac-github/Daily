@@ -1,0 +1,6 @@
+node_modules
+out
+*.log*
+build
+dist
+project.private.config.json

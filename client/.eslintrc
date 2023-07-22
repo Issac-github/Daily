@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": ["@typescript-eslint"],
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "parser": "@typescript-eslint/parser"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "eslint-disable-next-line": "off"
+    }
+  }
